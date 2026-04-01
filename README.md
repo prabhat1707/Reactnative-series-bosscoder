@@ -28,7 +28,7 @@ This project is divided into several key areas, each focusing on a fundamental a
 
 ## Getting Started
 
-To run this project locally on your machine, ensure you have your React Native environment completely set up.
+To run this project locally on your machine, ensure you have your Expo environment set up.
 
 1. **Clone the repository:**
    ```bash
@@ -42,15 +42,12 @@ To run this project locally on your machine, ensure you have your React Native e
    yarn install
    ```
 
-3. **Start the Metro Bundler:**
+3. **Start the development server:**
    ```bash
-   npm start
-   # or
-   yarn start
+   npx expo start
    ```
 
 4. **Run on your preferred platform:**
-   ```bash
-   npm run android  # For Android emulator/device
-   npm run ios      # For iOS simulator/device
-   ```
+   From the Expo terminal interface, you can press:
+   - `a` to open the app on an Android emulator or connected device
+   - `i` to open the app on an iOS simulator (macOS only)
